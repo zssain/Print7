@@ -1,0 +1,37 @@
+{
+  "name": "print7-frontend",
+  "version": "1.0.0",
+  "description": "Print7 - Online Printing E-commerce Platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "fabric": "^5.3.0",
+    "firebase": "^10.7.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "lucide-react": "^0.474.0",
+    "zustand": "^4.4.1",
+    "react-hot-toast": "^2.4.1",
+    "@headlessui/react": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  },
+  "overrides": {
+    "@headlessui/react": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  }
+}
